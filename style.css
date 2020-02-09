@@ -5,7 +5,7 @@
     margin: 0;    /*apply all 4 sides*/
     padding: 0;
     box-sizing: border-box;    /*element's padding + border are included in the width and height*/
-    border: 1px solid black;   /*  layout testing hsl(178, 62%, 39%) #DAF7A6, #900C3F */
+    /*border: 1px solid black;   /*  layout testing hsl(178, 62%, 39%) #DAF7A6, #900C3F */
 }
 
 html{
@@ -597,7 +597,7 @@ End reference*/
         font-size: 12rem;
     }
     .header-heading h6{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .nav-list{
         flex-direction: column;
@@ -670,6 +670,11 @@ End reference*/
     .about-heading h1{
         font-size: 8rem;
     }
+    .about-content li{
+        margin-top: 1.618rem;
+        margin-left: 3.236rem;
+    }
+
 
     .portfolio-item{
         flex-direction: column;
