@@ -5,7 +5,7 @@
     margin: 0;    /*apply all 4 sides*/
     padding: 0;
     box-sizing: border-box;    /*element's padding + border are included in the width and height*/
-    /*border: 1px solid black;  hsl(178, 62%, 39%) #DAF7A6, #900C3F  /*  layout testing*/
+    border: 1px solid black;   /*  layout testing hsl(178, 62%, 39%) #DAF7A6, #900C3F */
 }
 
 html{
@@ -237,8 +237,7 @@ header{
 .about-img img{
     width: 85%;
     height: 85%;
-    margin-left: 5rem;
-    margin-right: 30rem;
+    margin-right: 16.18rem;
 }
 
 .about-content{
@@ -657,7 +656,7 @@ End reference*/
         font-size: 8rem;
     }
     .header-heading h6{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .nav-link{
         font-size: 3.5rem;
@@ -666,7 +665,7 @@ End reference*/
     .about-img{
         width: 75%;
         height: 75%;
-        margin: 0 0 7rem 0;
+        margin: 0 0 1.618rem 6.472rem;
     }
     .about-heading h1{
         font-size: 8rem;
