@@ -425,8 +425,6 @@ header{
 
 }
 
-.portfolio-description{
-}
 .portfolio-description h1{
     font-size: 3.236rem;
     font-weight: 300;
@@ -437,6 +435,9 @@ header{
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.75;
+}
+.portfolio-description li{
+    margin-bottom: 1rem;
 }
 .portfolio-description .cta{
     display: inline-block;
@@ -638,11 +639,19 @@ End reference*/
     .timeline ul{
         margin: 0 0 0 auto;
     }
+    .timeline h1{
+        font-size: 1.618rem;
+    }
+    .timeline{
+        padding: 1rem;
+        width: 70%;
+    }
     .timeline .date::before{
-        left: -30rem;
+        font-size: 1.2rem;
+        left: -25rem;
     }
     .timeline .date::after{
-        left: -16rem;
+        left: -12rem;
     }
 }
 
@@ -690,10 +699,10 @@ End reference*/
 
     .timeline{
         padding: 1rem;
-        width: 70%;
+        width: 60%;
     }
     .timeline p{
-        font-size: 1.7rem;
+        font-size: 1.618rem;
     }
     .timeline .date{
         margin-left: 2rem;
