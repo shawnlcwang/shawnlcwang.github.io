@@ -89,7 +89,6 @@
 
 <script>
 import emailjs from 'emailjs-com';
-// import { ValidationObserver, ValidationProvider } from 'vee-validate';
 
 import MapboxGlMap from '@/components/Contact/MapboxGLMap.vue';
 import saveMapBounds from '@/components/Contact/saveMapBounds.js';
@@ -225,7 +224,7 @@ export default {
             this.sending = true;
             emailjs.send('gmail_shawnlcwang','template_shawnlcwang', this.templateParams, 'user_OLldNum1diAWLP3TYhUXt')
                 .then((response) => {
-                    console.log('SUCCESS!', response.status, response.text);
+                    // console.log('SUCCESS!', response.status, response.text);
                     this.snackbar('Email sent, thank you!', 'is-success');
                 })
                 .catch(() => {
