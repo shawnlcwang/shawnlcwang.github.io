@@ -1,0 +1,16 @@
+// Import Bulma and Buefy styles
+@import "variables";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+/*
+ * add global styles and override Bulma styles here
+ * all of Bulma's functions "derived variables" are available,
+ * see: <https://bulma.io/documentation/customize/variables/#derived-variables>
+ */
+
+html {
+    // all programmatic scrolling will use "smooth" behavior by default
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}

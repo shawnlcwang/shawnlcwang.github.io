@@ -1,0 +1,18 @@
+@import "~bulma/sass/utilities/_all";
+
+/**
+ * add new variables here
+ * all of Bulma's functions "derived variables" are available,
+ * see: <https://bulma.io/documentation/customize/variables/#derived-variables>
+ */
+
+ // branding colors
+$primary: #33284a;
+$primary-invert: #9492a3;
+
+// break page into 6 sections with 1/9th wide side-nav bar and 8/9th wide page content 
+$side-spacing: (100% / 9);
+$content-width: (100% / 9) * 8;
+
+// main nav menu
+$main-nav-width: $side-spacing;
